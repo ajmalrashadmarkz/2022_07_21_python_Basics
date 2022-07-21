@@ -1,0 +1,56 @@
+Python iterate list operators (for loops & while loop) is used to iterate element of list.
+Syntax:
+for var in (list_variable_name) :
+(for block)
+
+
+Using for loops
+>>> myList = [1,2,3,4]
+>>> for var in myList:
+...     print("Index of Element :", myList.index(var) , " - Element of list:",var)
+...
+Index of Element : 0  - Element of list: 1
+Index of Element : 1  - Element of list: 2
+Index of Element : 2  - Element of list: 3
+Index of Element : 3  - Element of list: 4
+
+
+Using for loops and range
+>>> # example list
+... myList = [1, 2, 3, 4]
+>>> # example list
+...
+>>> myList = [1, 2, 3, 4]
+>>> # getting length of list
+...
+>>> lengthOfmyList = len(myList)
+>>> # Iterating the index
+... for var in range(lengthOfmyList):
+...     print(myList[var])
+...
+1
+2
+3
+4
+
+
+
+>>> # example list
+... myList = [1, 2, 3, 4, 9, 10, 8]
+>>>
+... # Getting length of list
+... lengthOfmyList = len(myList)
+>>> i = 0
+>>>
+... # Iterating through the list using while loop
+... while i < lengthOfmyList:
+...     print(myList[i])
+...     i += 1
+...
+1
+2
+3
+4
+9
+10
+8

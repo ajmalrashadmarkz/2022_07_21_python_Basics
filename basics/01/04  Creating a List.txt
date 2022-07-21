@@ -1,0 +1,53 @@
+
+
+>>> sample = []
+>>> print(sample)
+[]
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+>>> room1 = ['rijoy','adam','avinash','george']
+>>> print(room1)
+['rijoy', 'adam', 'avinash', 'george']
+>>>
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+>>> room1 = ['rijoy','adam','avinash','george']
+>>> print('\n room 1 members are')
+
+ room 1 members are
+>>> print(room1)
+['rijoy', 'adam', 'avinash', 'george']
+>>>
+>>>
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# Creating a List of strings and accessing
+# using index
+>>> room1 = ['vishnu','benny','abhilash','thejus']
+>>> print('\n List 1st and 2nd item')
+
+ List 1st and 2nd item
+>>> print(room1[0])
+vishnu
+>>> print(room1[1])
+benny
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+# Creating a Multi-Dimensional List
+# (By Nesting a list inside a List)
+>>> print('Two dimensional List')
+Two dimensional List
+>>> twoDimlist = [[1,2,3],[4,5,6]]
+>>> print('2 X 3 2rows and 3 columnns')
+2 X 3 2rows and 3 columnns
+>>> print('how to get 2 from 2D list')
+how to get 2 from 2D list
+>>> print(twoDimlist[0][1])
+2

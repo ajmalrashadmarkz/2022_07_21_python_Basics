@@ -1,0 +1,65 @@
+index operator [ ] to access an item in a list
+The index must be an integer
+# Python program to demonstrate
+# accessing of element from list
+ 
+	# Creating a List with
+	# the use of multiple values
+
+
+ Arunodaya1 = ['Amal','Akshay','Abhilash']
+
+
+	# accessing a element from the
+	# list using index number
+
+
+ print(Arunodaya1[0])
+Amal
+ print(Arunodaya1[1])
+Akshay
+ print(Arunodaya1[2])
+Abhilash
+ 
+
+
+	# Creating a Multi-Dimensional List
+	# (By Nesting a list inside a List)
+
+
+Arunodaya2 = [['Room1','Room2','Room3','Room4'],['Abhilash','Manja','Amal','Akshay']]
+
+
+
+ 
+	# accessing an element from the
+	# Multi-Dimensional List using
+	# index number
+
+
+ print(Arunodaya2[0][0],'leader',Arunodaya2[1][0])
+Room1 leader Abhilash
+ print(Arunodaya2[0][1],'leader',Arunodaya2[1][1])
+Room2 leader Manja
+ print(Arunodaya2[0][2],'leader',Arunodaya2[1][2])
+Room3 leader Amal
+ print(Arunodaya2[0][3],'leader',Arunodaya2[1][3])
+Room4 leader Akshay
+
+
+Negative indexing
+
+
+Arunodaya2 = [['Room1','Room2','Room3','Room4'],['Abhilash','Manja','Amal','Akshay']]
+ 
+	# accessing an element using
+	# negative indexing
+print("Accessing element using negative indexing")
+ 
+	# print the last element of list
+
+print(Arunodaya2[0][-1],'leader',Arunodaya2[1][-1])
+Room4 leader Akshay
+ 
+# print the third last element of list
+print(List[-3])

@@ -1,0 +1,19 @@
+Add multiple elements at the same time at the end of the list
+
+# Python program to demonstrate
+# Addition of elements in a List
+ 
+	# Creating a List
+
+Arunodaya1 = ['Amal','Akshay','Abhilash']
+
+
+
+	# Addition of multiple elements
+	# to the List at the end
+	# (using Extend Method)
+
+Arunodaya1.extend(['Habel','Alan Benny','Jishnu'])
+print(Arunodaya1)
+
+['Amal', 'Akshay', 'Abhilash', 'Habel', 'Alan Benny', 'Jishnu']

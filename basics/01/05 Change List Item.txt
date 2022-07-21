@@ -1,0 +1,52 @@
+		Change Single list item.
+
+
+>>> # list
+... List=[ 10, 20, 30, 40, 50, 60]
+>>> print("original list ")
+original list
+>>> print(List)
+[10, 20, 30, 40, 50, 60]
+>>>
+... #changing the first value
+... List[0] = 11
+>>>
+... #changing the second value
+... List[1] = 21
+>>>
+... #changing the last element
+... List[ -1] = 61
+>>>
+... print("\nNew list")
+
+New list
+>>> print(List)
+[11, 21, 30, 40, 50, 61]
+>>>
+
+
+		Changing all values using loops.
+
+
+>>> mark = [22, 20 , 23, 24]
+>>> Gm=1
+>>> for i in range( len(mark)):
+...     mark[i] = mark[i]+Gm
+...
+>>> print(mark)
+[23, 21, 24, 25]
+>>>
+
+
+		Changing all values of a list using List comprehension.
+
+>>> print(mark)
+[23, 21, 24, 25]
+>>>
+>>>
+>>> mark_updated = [i+1 for i in mark]
+>>> print(mark_updated)
+[24, 22, 25, 26]
+>>>
+
+

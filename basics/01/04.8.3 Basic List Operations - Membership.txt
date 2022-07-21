@@ -1,0 +1,21 @@
+Syntax:
+(list_element) in (list_variable_name)
+(list_element) not in (list_variable_name)
+
+List membership (in) operator
+>>> number=[1,2,3]
+>>> # using membership operator
+>>> print( ' 3 in number:', 3 in number)
+
+ 3 in number: True
+
+
+
+
+
+List membership (not in) operator
+>>> number=[1,2,3]
+>>> # using membership operator
+
+>>> print( ' 10 is not in number:', 10 not in number)
+ 10 is not in number: True

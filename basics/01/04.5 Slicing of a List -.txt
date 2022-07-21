@@ -1,0 +1,54 @@
+# Let us first create a list to demonstrate slicing
+# lst contains all number from 1 to 10
+>>> numbers = list(range(1,11))
+>>> print(numbers)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    
+
+
+#  below list has numbers from 2 to 5
+>>> twoToFive = numbers[1:5]
+>>> print(twoToFive)
+[2, 3, 4, 5]
+    
+
+
+#  below list has numbers from 6 to 8
+>>> SixToEight = numbers[5:8]
+>>> print(SixToEight)
+[6, 7, 8]
+
+
+    
+#  below list has numbers from 2 to 10
+>>> twoToTen = numbers[1:]
+>>> print(twoToTen)
+[2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+
+    
+#  below list has numbers from 1 to 8
+>>> OneToEight = numbers[:8]
+>>> print(OneToEight)
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+
+    
+#  below list has numbers from 2 to 10 in step 2
+>>> EvenNumb = numbers[1:11:2]
+>>> print(EvenNumb)
+[2, 4, 6, 8, 10]
+
+
+    
+#  below list has numbers from 10 to 1
+>>> rev = numbers[::-1]
+>>> print(rev)
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+    
+#  below list has numbers from 10 to 2 in step 2
+>>> EvenNumb = numbers[11:0:-2]
+>>> print(EvenNumb)
+[10, 8, 6, 4, 2]

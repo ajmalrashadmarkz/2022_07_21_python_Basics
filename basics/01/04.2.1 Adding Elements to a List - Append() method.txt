@@ -1,0 +1,68 @@
+Only one element at a time can be added to the list by using the append() method
+addition of elements at the end of the List
+append() which takes only one argument (value)
+
+# Python program to demonstrate
+# Addition of elements in a List
+ 
+# Creating a List
+ Arunodaya1 = []
+ print(Arunodaya1)
+ []
+ 
+
+
+# Addition of Elements
+# in the List
+
+ Arunodaya1.append(1)
+ Arunodaya1.append(2)
+ Arunodaya1.append(3)
+ Arunodaya1.append(4)
+
+
+ print(Arunodaya1)
+[1, 2, 3, 4]
+ 
+
+
+
+
+# Adding elements to the List
+# using Iterator
+
+ i=0
+ while i < 3:
+     Arunodaya1.append(i)
+     i += 1
+
+ print(Arunodaya1)
+[1, 2, 3, 4, 0, 1, 2]
+
+
+	OR
+ Arunodaya2 = []
+ for i in range(1,5):
+     Arunodaya2.append(i)
+
+ print(Arunodaya2)
+[1, 2, 3, 4]
+
+
+
+
+ 
+# Adding Tuples to the List
+ Arunodaya2 = []
+ Arunodaya2.append(('Room1','Room2','Room3','Room4'))
+ print(Arunodaya2)
+[('Room1', 'Room2', 'Room3', 'Room4')]
+
+
+
+ 
+# Addition of List to a List
+Leaders = ['Abhilash','Manja','Amal','Akshay']
+ Arunodaya2.append(Leaders)
+ print(Arunodaya2)
+[('Room1', 'Room2', 'Room3', 'Room4'), ['Abhilash', 'Manja', 'Amal', 'Akshay']]

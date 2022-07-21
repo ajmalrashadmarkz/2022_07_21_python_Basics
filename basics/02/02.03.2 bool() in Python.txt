@@ -1,0 +1,163 @@
+Used to return or convert a value to a Boolean value i.e., True or False
+
+Syntax: bool([x])
+
+If no parameter is passed, then by default it returns False.
+
+It returns True if the parameter or value passed is True.
+It returns False if the parameter or value passed is False.
+
+If a False value is passed.
+If None is passed.
+If an empty sequence is passed, such as (), [], ”, etc
+If Zero is passed in any numeric type, such as 0, 0.0 etc
+If an empty mapping is passed, such as {}.
+If Objects of Classes having __bool__() or __len()__ method, returning 0 or False
+
+
+					bool() function Python Example:
+
+			Example 1:
+# Returns True as x is True
+
+a =int(input("Enter the first Number   :"))
+Enter the first Number   :20
+>>> b =int(input("Enter the second Number   :"))
+Enter the second Number   :10
+>>> if a > b:
+...     x = True
+...     print(bool(x))
+...
+
+True
+
+
+			Example 2:
+# Returns False as y is False
+
+
+>>> a =int(input("Enter the first Number   :"))
+Enter the first Number   :05
+>>> b =int(input("Enter the second Number   :"))
+Enter the second Number   :10
+>>> if a > b:
+...     x = True
+...     print(bool(x))
+... else:
+...     y = False
+...     print(bool(y))
+...
+False
+
+
+
+# Returns False as x is not equal to y (Checking Same or Not )
+
+
+>>> a =int(input("First Value    :"))
+First Value    :25
+>>> b =int(input("Second Value    :"))
+Second Value    :20
+>>> print(bool(a == b))
+False
+
+
+# Returns True as x is  equal to y (Checking Same or Not )
+
+
+>>> a =int(input("First Value    :"))
+First Value    :20
+>>> b =int(input("Second Value    :"))
+Second Value    :20
+>>> print(bool(a == b))
+True
+
+
+
+###############################################################
+Set Condition Treu or False 
+Check the above condition and gone to next steps 
+
+
+>>> a =int(input("First Value    :"))
+First Value    :26
+>>> b =int(input("Second Value    :"))
+Second Value    :21
+>>> if a > b:
+...     x = True
+...
+>>> if bool(x) == True:
+...     print('A is bigger than B')
+... else:
+...     print('B is bigger than A')
+...
+A is bigger than B
+>>>
+
+
+##############################################################
+				# Returns False as x is None
+
+
+>>> a = None
+>>> print(bool(a))
+False
+>>>
+>>>
+>>> if a is None:
+...     print("a has a value of None")
+... else:
+...     print("a has a value")
+...
+a has a value of None
+>>>
+
+
+################################################################
+# Returns False as x is an empty sequence
+Python Tuples
+A tuple, in effect, is an immutable group of items. When we say immutable, we mean we cannot change a single value once we declare it.
+
+
+>>> name = ()
+>>> print(bool(name))
+False
+
+
+################################################################
+# Returns False as x is 0
+
+>>> x = 0
+>>> print(bool(x))
+False
+
+
+################################################################
+# Returns True as x is 1 (0+)
+
+>>> x = 1
+>>> print(bool(x))
+True
+>>>
+>>>
+>>>
+>>> x = 2
+>>> print(bool(x))
+True
+>>>
+>>>
+>>>
+>>> x = 0.2
+>>> print(bool(x))
+True
+>>>
+
+
+################################################################
+# Returns True as x is a non empty string
+
+>>> name = 'Arunodaya'
+>>> print(bool(name))
+True
+
+################################################################

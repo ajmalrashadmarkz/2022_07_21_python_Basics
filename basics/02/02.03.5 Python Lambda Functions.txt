@@ -1,0 +1,94 @@
+Python Lambda Functions are anonymous function means that the function is without a name
+Lambda Functions----------anonymous function-----------------function is without a name
+lambda keyword is used to define an anonymous function in Python
+
+Python Lambda Function Syntax:
+
+lambda arguments: expression
+
+
+This function can have any number of arguments but only one expression, which is evaluated and returned.
+
+				XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+				
+				x ="GeeksforGeeks"
+				(lambda x : print(x))(x)    one expression
+				
+				XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+			Difference Between Lambda functions and def defined function
+
+
+>>> def display():
+...     print("Hai")
+...
+>>> display()
+Hai
+
+
+>>> x = 'Hello'
+>>> (lambda x: print(x))(x)
+Hello
+
+#######################################################################################################
+			Python code to illustrate cube of a number
+		       showing difference between def() and lambda().
+
+#showing difference between def() and lambda().
+
+# A function name cube is defined
+# using def
+
+>>> def cube(a):
+...     return a*a*a
+...
+# lambda functions
+>>> lambda_cube = lambda y: y * y * y
+
+# print statement - def - driver code
+>>> print(cube(5))
+125 
+
+# print statement - lambda - driver code
+>>> print(lambda_cube(6))
+216
+
+	Without using Lambda: 
+		def, define a function with a name cube and needed to pass a value to it
+		also needed to return the result from where the function was called using the return keyword.
+
+	Using Lambda:
+		does not include a “return” statement, expression that is returned.
+		put a lambda definition anywhere a function is expected, and we don’t have to assign it to a variable at all. 
+		This is the simplicity of lambda functions
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+				 Python Lambda Function with List Comprehension
+
+#lambda function with list comprehension and lambda with for loop.
+#print the rooms in Arunodaya 2.
+
+>>> Arunodaya2 = [lambda num=num:num for num in range(1,5)]
+>>> for room in Arunodaya2:
+...     print(room())
+...
+1
+2
+3
+4
+>>>
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+				Example 2: Python Lambda Function with if-else
+
+Attention =lambda Members_Arunodaya3,Members_Arunodaya4:Members_Arunodaya3 if (Members_Arunodaya3 > Members_Arunodaya4) else Members_Arunodaya3
+>>> print(Attention(14,12))
+14
+
+>>> bigger =lambda value1, value2: value1 if (value1 > value2) else value2
+>>> print(bigger(5,6))
+6
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

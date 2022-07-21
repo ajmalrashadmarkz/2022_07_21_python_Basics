@@ -1,0 +1,15 @@
+addition of elements at the desired position
+insert() method requires two arguments(position, value)
+
+# Creating a List
+Arunodaya1 = ['Amal','Akshay','Abhilash']
+
+
+ 
+# Addition of Element at
+# specific Position
+# (using Insert Method)
+Arunodaya1.insert(0,'vishnu Kunjappan')
+Arunodaya1.insert(1,'Rijoy Jackson')
+print(Arunodaya1)
+['vishnu Kunjappan', 'Rijoy Jackson', 'Amal', 'Akshay', 'Abhilash']

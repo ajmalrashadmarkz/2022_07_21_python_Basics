@@ -1,0 +1,126 @@
+boolean represents an idea of “true” or “false.”
+boolean value is returned as a result of some kind of comparison operations.
+There are two Boolean keywords: True and False
+
+
+
+							Comparison Operators
+Comparison operators are used to compare values. It returns either True or False after computing the condition. 
+
+
+Operator
+>	Greater than			x > y
+<	Less than 			x < y
+==	Equal to			x == y
+!=	Not equal to 			x != y
+>=	Greater than or equal to 	x >= y
+<=	Less than or equal to 		x <= y
+
+
+
+
+							Logical Operators
+There are Three Logical operators: and, or, not
+ 
+
+Operator	
+and	True if both the operands are true		x and y
+or	True if either of the operands is true		x or y
+not	True if operand is false.			not x
+
+
+
+################################################################################
+
+				Example 1 :Checking whether a list is empty or not
+will pass the list in the bool() function. When the list is empty, False is returned and if the list is not empty True is returned.
+
+>>> def checker(list_name):
+...     print(bool(list_name))
+ 
+if __name__ == "__main__":
+    # making an empty list
+...     arunodaya1 = []
+ 
+    # calling our function
+...     checker(arunodaya1)
+ 
+    # making an non-empty list
+...     arunodaya2 = ['Room1', 'Room2']
+ 
+    # calling our function
+...     checker(arunodaya2)
+
+False
+True
+
+
+####################################################################################
+			Example 2:  find out even and odd by the use of bool() method
+
+
+# Python code to check whether a number
+# is even or odd using bool()
+ >>> def Check(num):
+...     return(bool(num % 2 == 0))
+...
+
+
+# Driver Code
+>>> a = 5
+>>> result = Check(a)
+>>> if result == True:
+...     print(a,"= is Even Number")
+... else:
+...     print(a,"= is Odd Number")
+...
+5 = is Odd Number
+
+								# Driver Code
+								num = 8
+								if(check(num)):
+    									print("Even")
+								else:
+    									print("Odd")
+
+			xxxxxxxxxx
+
+
+>>> a = 10
+>>> result = Check(a)
+>>> if result == True:
+...     print(a,"= is Even Number")
+... else:
+...     print(a,"= is Odd Number")
+...
+10 = is Even Number
+
+
+##################################################################################
+
+True   if Working
+False  Else Statement Working
+
+>>> a = 1;
+>>> if bool(a):
+...     print("\n True")
+... else:
+...     print("\n False")
+...
+
+ True
+>>>
+>>>
+>>> a = 0;
+>>> if bool(a):
+...     print("\n True")
+... else:
+...     print("\n False")
+...
+
+ False
+
+
+###################################################################################
+
+

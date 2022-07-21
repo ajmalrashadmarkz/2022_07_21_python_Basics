@@ -1,0 +1,25 @@
+remove and return an element from the list
+by default it removes only the last element of the list
+remove-specific position of the List, the index of the element is passed as an argument to the pop() method.
+
+
+>>> room1 = ['vishnu','benny','abhilash','thejus','Adam']
+ 
+# Removing element from the
+# Set using the pop() method
+
+>>> room1.pop()
+'Adam'
+
+
+
+
+# Removing element at a
+# specific location from the
+# Set using the pop() method
+>>> room1 = ['vishnu','benny','Habel','abhilash','thejus','Adam']
+>>> room1.pop()
+'Adam'
+>>> room1.pop(2)
+'Habel'
+>>>

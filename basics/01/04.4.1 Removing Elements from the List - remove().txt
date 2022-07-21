@@ -1,0 +1,34 @@
+Elements can be removed from the List by using the built-in remove() function
+an Error arises if the element doesn’t exist in the list
+
+
+# Python program to demonstrate
+# Removal of elements in a List
+ 
+	# Creating a List
+ room1 = ['vishnu','benny','abhilash','thejus','Adam']
+ print(room1)
+['vishnu', 'benny', 'abhilash', 'thejus', 'Adam']
+ 
+	# Removing elements from List
+	# using Remove() method
+room1.remove('Adam')
+print(room1)
+['vishnu', 'benny', 'abhilash', 'thejus']
+
+ 
+	# Removing elements from List
+	# using iterator method
+ list = [1,2,3,4,5,6,7,8]
+ print(list)
+[1, 2, 3, 4, 5, 6, 7, 8]
+ for i in range(1,5):
+     list.remove(i)
+print(list)
+[5, 6, 7, 8]
+
+
+
+
+
+

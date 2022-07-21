@@ -1,0 +1,84 @@
+https://www.geeksforgeeks.org/python-dictionary/
+
+used to store data values like a map
+Data Types that hold only a single value as an element,Dictionary holds
+key:value pair. Key-value is provided in the dictionary to make it more optimized. 
+
+Dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’.
+Dictionary holds pairs of values, one being the Key and the other
+
+Corresponding pair element being its Key:value.
+Values in a dictionary can be of any data type and can be duplicated, whereas keys can’t be repeated and must be immutable. 
+
+						
+							Creating a Dictionary
+						   Adding elements to a Dictionary
+						 Accessing elements from a Dictionary
+					      Accessing an element of a nested dictionary
+						   Removing Elements from Dictionary
+
+
+#################################################################
+					Creating a Dictionary
+
+# Creating a Dictionary
+# with Integer Keys
+
+
+>>> Arunodaya1 = {1: 'Room1', 2: 'Room2', 3: 'Room3', 4: 'Room4'}
+>>> print("\n Dictionary Method")
+
+ Dictionary Method
+>>> print(Arunodaya1)
+
+{1: 'Room1', 2: 'Room2', 3: 'Room3', 4: 'Room4'}
+
+>>>
+
+
+----------------------------------------------------------------
+
+# Creating a Dictionary
+# with Mixed keys
+
+>>> Arunodaya1 = {1:'Room1' , 'Members': ['Rijoy','Adam', 'Avinash', 'xxxxxx'], 2:'Room2', 3:'Room3', 4:'Room4'}
+>>> print('\n With Mixed keys')
+
+ With Mixed keys
+>>> print(Arunodaya1)
+
+{1: 'Room1', 'Members': ['Rijoy', 'Adam', 'Avinash', 'xxxxxx'], 2: 'Room2', 3: 'Room3', 4: 'Room4'}
+
+>>>
+
+
+#################################################################
+				Created by the built-in function dict()
+
+# Creating an empty Dictionary
+
+>>> Arunodaya1 = {}
+>>> print(Arunodaya1)
+{}
+
+# Creating a Dictionary
+# with dict() method
+
+>>> Arunodaya1 =dict({1: 'Room1', 2: 'Room2', 3: 'Room3', 4: 'Room4'})
+>>> print(Arunodaya1)
+{1: 'Room1', 2: 'Room2', 3: 'Room3', 4: 'Room4'}
+>>>
+
+
+-------------------------------------------------------------------
+
+# Creating a Dictionary
+# with each item as a Pair
+
+>>> Arunodaya2 = dict([( 1, 'Room1'),(2, 'Room2'),(3, 'Room3'),(4, 'Room4')])
+>>> print(Arunodaya2)
+{1: 'Room1', 2: 'Room2', 3: 'Room3', 4: 'Room4'}
+>>>
+
+####################################################################
+

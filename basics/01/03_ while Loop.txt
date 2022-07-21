@@ -1,0 +1,57 @@
+https://www.geeksforgeeks.org/python-while-loop/
+
+
+					Python while loop with pass statement
+ 
+>>> i = 0
+>>> word = 'MarkCreative'
+>>> while i < len(word):
+...      if word[i] == 'C':
+...              i += 1
+...              print('Now pass statment is executed')
+...              pass
+...      print('The Current letters :',word[i])
+...      i += 1
+...
+The Current letters : M
+The Current letters : a
+The Current letters : r
+The Current letters : k
+Now pass statment is executed
+The Current letters : r
+The Current letters : e
+The Current letters : a
+The Current letters : t
+The Current letters : i
+The Current letters : v
+The Current letters : e
+>>>
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+				While loop with else
+
+>>> i = 0
+>>> while i < 5:
+...     i += 1
+...     print(i)
+... else:
+...     print('Else statement is working')
+...
+1
+2
+3
+4
+5
+Else statement is working
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+				Python while loop with user input
+
+
+>>> a =int(input('Enter the number (-1 to quit)  :'))
+Enter the number (-1 to quit)  :-1
+
+while a!= -1:
+     a =int(input('Enter the number (-1 to quit)  :'))
+

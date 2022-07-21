@@ -1,0 +1,6 @@
+
+#Knowing the size of List
+
+>>> room1 = ['vishnu','benny','abhilash','thejus']
+>>> print(len(room1))
+4

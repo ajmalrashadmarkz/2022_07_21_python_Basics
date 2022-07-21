@@ -1,0 +1,103 @@
+searches for a given element from the start of the list and returns the lowest index where the element appears
+
+Syntax:
+
+list_name.index(element, start, end)
+
+Parameters:  
+
+element – The element whose lowest index will be returned.
+start (Optional) – The position from where the search begins.
+end (Optional) – The position from where the search ends.
+Returns: 
+
+
+
+
+
+		Find the index of the element
+
+# Python3 program for demonstration  
+# of list index() method
+  
+>>> Arunodaya_1 = ['Adam', 'Sajad', 'Avinash', 'Arshad', 'Varun', 'Sudheesh', 'Sreekuttan']
+  
+# Will print the index of 'Adam' in list1
+>>> Arunodaya_1.index('Adam')
+0
+  
+# Will print the index of 'Sreekuttan' in list2 
+>>> Arunodaya_1.index('Sreekuttan')
+6
+
+
+
+
+		Find the index of the element
+
+# Python3 program for demonstration 
+# of index() method
+  
+>>> sample = ['mark', 'a', 'a', 'b', 'c', 'mark', 'mar']
+  
+
+# Will print index of 'mark' in sublist
+# having index from 1 to 6.
+>>> print(sample.index('mark', 2, 6))
+5
+  
+# Will print index of 'mark' in sublist
+# having index from 0 to 6
+>>> print(sample.index('mark', 0, 6))
+0
+
+
+
+
+
+# Python3 program for demonstration 
+# of list index() method
+  
+# Random list having sublist and tuple also
+list1 = [1, 2, 3, [9, 8, 7], ('cat', 'bat')]
+  
+# Will print the index of sublist [9, 8, 7]
+print(list1.index([9, 8, 7]))
+  
+# Will print the index of tuple 
+# ('cat', 'bat') inside list 
+print(list1.index(('cat', 'bat')))
+
+
+
+
+
+# Python3 program for demonstration 
+# of index() method
+  
+list1 = [6 , 8 , 5 , 6 , 1 , 2]
+  
+# Will print index of '3' in sublist
+# having index from 1 to end of the list.
+print(list1.index(6 , 1))
+
+
+
+
+
+
+# Python3 program for demonstration 
+# of index() method
+  
+list1 = [6 , 2 , 14 , 8 , 9 , 10]
+  
+  
+# Will print index of '4' in sublist as now index '4' is included 
+# having index from 1 to 5.
+print(list1.index(9, 1, 5))
+
+
+
+
+
+

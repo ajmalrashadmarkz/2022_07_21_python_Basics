@@ -1,0 +1,33 @@
+del keyword can also be used to delete a list, slice a list, delete a dictionaries, remove key-value pairs from a dictionary, delete variables, etc.
+everything in python represents an object in one way or another
+https://www.geeksforgeeks.org/delattr-del-python/?ref=rp
+
+
+Syntax: del object_name
+
+
+		del keyword for deleting objects
+
+
+
+
+
+		del keyword for deleting variables
+
+
+
+
+		 del keyword for deleting list and list slicing
+
+>>> Arunodaya1 = ['Room A', 'Room B', 'Room C', 'Room D', 'Room E']
+# delete second element of Arunodaya1 
+>>> del Arunodaya1[4]
+  
+# check if the Fourth element in Arunodaya1  is deleted
+>>> print(Arunodaya1)
+['Room A', 'Room B', 'Room C', 'Room D']
+>>>
+
+
+
+		del keyword for deleting dictionaries and removing key-value pairs
